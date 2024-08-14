@@ -1,5 +1,5 @@
-# Kickstarter Clone (Loading...)
-This is a blockchain project that simulates Kickstarter, using Solidity,Typescript, Hardhat, Chai, Ethers.js and Next.
+# GOFLY (Loading...)
+This is a blockchain project that copy Kickstarter idea, using Solidity,Typescript, Hardhat, Chai, Ethers.js and Next.
 
 https://www.kickstarter.com/
 
