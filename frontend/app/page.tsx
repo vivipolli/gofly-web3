@@ -1,16 +1,23 @@
+"use client"
+
 import Image from "next/image";
 import Link from "next/link";
 import Footer from "./components/footer";
 import Features from "./components/features";
 import Header from "./components/header";
-import { useReadContract } from 'wagmi';
+import { useReadContract } from "wagmi";
+import { factoryConfig } from "./web3/factoryConfig";
+import { useEffect } from "react";
 
 export default function Home() {
-
-	// useReadContract({
-	// 	abi: 
-
+	// const { data } = useReadContract({
+	// 	abi: factoryConfig.abi,
+	// 	address: factoryConfig.address as any,
 	// });
+
+	// useEffect(() => {
+	// 	console.log(data);
+	// },[])
 
 	return (
 		<main className="flex min-h-screen flex-col items-center justify-between p-24">
