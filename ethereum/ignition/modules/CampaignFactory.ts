@@ -2,7 +2,7 @@ import { buildModule } from "@nomicfoundation/hardhat-ignition/modules";
 
 const MINIMUM_CONTRIBUTION_DEFAULT = 100;
 
-const CampaignModule = buildModule("CampaignModule", (m) => {
+const CampaignFactoryModule = buildModule("CampaignFactoryModule", (m) => {
 	const minimumContribution = m.getParameter(
 		"minimumContribution",
 		MINIMUM_CONTRIBUTION_DEFAULT
@@ -15,4 +15,4 @@ const CampaignModule = buildModule("CampaignModule", (m) => {
 	return { campaignFactory };
 });
 
-export default CampaignModule;
+export default CampaignFactoryModule;
